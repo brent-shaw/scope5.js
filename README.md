@@ -1,3 +1,5 @@
+[p5js]: https://p5js.org/
+
 scope5.js
 =========
 
@@ -26,13 +28,18 @@ myWave.draw();
 
 Based on p5.js
 ----------
-
+The [p5.js Javascript library][p5js]  brings the Processing's features to the web.
 
 plane.scope5.js
 ---------------
-
+```js
+function Plane(_x, _y, _width, _height)
+```
 
 wave.scope5.js
 --------------
+```js
+function Wave(_freq, _amp, _plane, _stroke)
+```
 
 
