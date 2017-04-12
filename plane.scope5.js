@@ -34,11 +34,11 @@ function Plane(_x, _y, _width, _height)
   this.x_numbering_buffer = (this.width*0.08);
   this.x_label_buffer = (this.width*0.05);
 
-  this.y_line_buffer = (this.height*0.1);;
-  this.y_numbering_buffer = (this.height*0.08);;
-  this.y_label_buffer = (this.height*0.05);;
+  this.y_line_buffer = (this.height*0.1);
+  this.y_numbering_buffer = (this.height*0.08);
+  this.y_label_buffer = (this.height*0.05);
 
-  this.y_overhang = (this.width*0.1);;
+  this.y_overhang = (this.width*0.1);
 
   this.def_X = function(l, u)
   {
@@ -55,7 +55,6 @@ function Plane(_x, _y, _width, _height)
   this.draw = function()
   {
     strokeWeight(2);
-    //line(startX, startY, endX, endY);
     line(this.x_axis_min+this.x_line_buffer, this.center_height, this.x_axis_max, this.center_height);  //x axis
     line(this.x_axis_min+this.x_line_buffer, this.y_axis_min+this.y_line_buffer, this.x_axis_min+this.x_line_buffer, this.y_axis_max-this.y_line_buffer); //y axis (this.x_axis_min)
 
