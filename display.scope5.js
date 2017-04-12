@@ -1,5 +1,8 @@
 //Functions for displaying signals
 
+//Function returns a colurs based on the frequency provided
+//Frequencies are distributed logarithmically over colour space
+//
 function frequencyColour(f) 
 {
   var lf = round(log(f)*log(f));
