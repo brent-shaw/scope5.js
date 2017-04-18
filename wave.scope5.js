@@ -11,10 +11,6 @@ function Wave(_freq, _amp, _plane, _stroke)
 	this.plane = _plane;
 	this.startX = this.plane.x_axis_min+this.plane.x_line_buffer;
 	this.startY = this.plane.center_height;
-	//this.startX = 64*2;
-	//this.startY = (600/2);
-
-	//this.limitX = 1280-(1280*0.1);
 
 	this.draw = function()
 	{
@@ -27,10 +23,6 @@ function Wave(_freq, _amp, _plane, _stroke)
 		stroke(color('hsl('+h+',100%, 50%)'),180);
 
 		strokeWeight(this.stroke);
-
-    	//stroke(255);
-
-    	//stroke(this.colour,180);
     	
 		beginShape();
     
