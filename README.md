@@ -42,4 +42,7 @@ wave.scope5.js
 function Wave(_freq, _amp, _plane, _stroke)
 ```
 
+signal.scope5.js
+----------------
+Coming soon. Signals can be created, summed and processed. The wave library will then be used for plotting the signals.
 
