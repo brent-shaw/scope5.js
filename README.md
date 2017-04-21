@@ -32,15 +32,19 @@ The [p5.js Javascript library][p5js]  brings the Processing's features to the we
 
 plane.scope5.js
 ---------------
+Used to create a plane on which graphs can be plotted. The planes can be sized and possitioned as an atomic unit.
 ```js
 function Plane(_x, _y, _width, _height)
 ```
+Once sized and placed, the plane can be named. Axes can be named and scaled so that wave proporties can be placed in perspective.
 
 wave.scope5.js
 --------------
+The wave library is used for plotting signals on a plane. The signal does not require a size or placement. Instead the signal is simply placed on a plane.
 ```js
 function Wave(_freq, _amp, _plane, _stroke)
 ```
+
 
 signal.scope5.js
 ----------------
