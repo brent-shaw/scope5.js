@@ -1,6 +1,7 @@
 function Wave(_freq, _amp, _plane, _stroke)
 {
 	//Wave attributes
+	//After the merger with the newer signal library, these attributes will be removed.
 	this.freq = _freq;
 	this.amp = _amp;
 
