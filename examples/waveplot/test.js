@@ -1,8 +1,8 @@
 var waves = [];
 
-function setup() 
+function setup()
 {
-  
+
   createCanvas(1600,900);
   noFill();
   smooth(8);
@@ -15,14 +15,9 @@ function setup()
   myPlane = new Plane(0, 0, 1280, 600);
   myPlane.draw();
 
-  waves.push(new Wave(400, 100, myPlane, 4));
-  waves.push(new Wave(800, 100, myPlane, 4));
-  waves.push(new Wave(1200, 100, myPlane, 4));
-
-
-  for (x in waves) 
+  for (var f=1; f < 16; f++)
   {
-    waves[x].draw();
+    new Wave(new Signal(100*f, 100), myPlane, 1).draw();
   }
 }
 
