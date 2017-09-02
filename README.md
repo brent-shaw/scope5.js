@@ -10,6 +10,8 @@ Features
 
 The scope5.js library can be used to produce graphs that represent various waveforms.
 
+![Sine Wave Render](/sine.png)
+
 Usage
 -----
 
