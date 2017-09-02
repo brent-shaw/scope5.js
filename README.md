@@ -12,6 +12,10 @@ Features
 
 The scope5.js library can be used to produce graphs that represent various waveforms.
 
+![Additive Synth](/synth.png)
+
+When combined with the p5 Sounds library, scope5.js can be use to show the interations within additive synthesisers and how visualise how various waveforms are created.
+
 Usage
 -----
 
