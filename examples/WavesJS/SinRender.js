@@ -79,17 +79,3 @@ function drawControls(freq, amp)
   text(speed+"m/s", 510, 35);
   text(round(wavelength*100)/100+ "m", 510, 65);
 }
-
-function drawWave(freq, amp)
-{
-  createCanvas(1280,600);
-
-  strokeWeight(2);
-  stroke(255);
-
-  var myPlane;
-  myPlane = new Plane(0, 50, 960, 480);
-  myPlane.draw();
-
-  new Wave(new Signal(freq, amp), myPlane, 3).draw();
-}
