@@ -5,14 +5,14 @@ scope5.js
 
 Scope5 is plotting library for p5.js. Plots sine waves onto plane to give similar look and feel to oscilloscope.
 
-![Sine Wave Render](/sine.png)
+![Sine Wave Render](/images/sine.png)
 
 Features
 --------
 
 The scope5.js library can be used to produce graphs that represent various waveforms.
 
-![Additive Synth](/synth.png)
+![Additive Synth](/images/synth.png)
 
 When combined with the p5 Sounds library, scope5.js can be use to show the interations within additive synthesisers and how visualise how various waveforms are created.
 
