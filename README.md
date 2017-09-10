@@ -65,9 +65,13 @@ function Signal(_freq, _amp, _shape)
 Examples
 --------
 
-### [WavesJS] (https://github.com/brent-shaw/scope5.js) 
+### WavesJS
+
+Simple example using scope5.js to plot a sine wave.
 
 ### WaveOSCJS
+
+Simple example using scope5.js and p5.js. Extends the WavesJS example by adding an oscillator.
 
 ### WaveSumJS
 
