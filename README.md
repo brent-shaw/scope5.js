@@ -65,7 +65,7 @@ function Signal(_freq, _amp, _shape)
 Examples
 --------
 
-### WavesJS
+### [WavesJS] (https://github.com/brent-shaw/scope5.js) 
 
 ### WaveOSCJS
 
