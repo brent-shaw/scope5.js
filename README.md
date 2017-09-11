@@ -78,3 +78,5 @@ Simple example using scope5.js and p5.js. Extends the WavesJS example by adding 
 ### WavePhaseJS
 
 ### WavesHarmonicOSCJS
+
+Basic additive synthesiser that generates harmonics based on selected fundermental frequency (using p5.js). Harmonics are drawn using the Scope5.js library.
