@@ -75,7 +75,11 @@ Simple example using scope5.js and p5.js. Extends the WavesJS example by adding 
 
 ### WaveSumJS
 
+Basic example that allows waves of different frequencies to be summed together. 
+
 ### WavePhaseJS
+
+Simple example showing how phase affects wave summing.
 
 ### WavesHarmonicOSCJS
 
