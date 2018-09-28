@@ -3,7 +3,7 @@
 scope5.js
 =========
 
-Scope5 is plotting library for p5.js. Plots sine waves onto plane to give similar look and feel to oscilloscope.
+Scope5 is plotting library for p5.js. Plots sine waves onto planes to give similar look and feel to oscilloscope.
 
 ![Sine Wave Render](/images/sine.png)
 
@@ -75,7 +75,7 @@ Simple example using scope5.js and p5.js. Extends the WavesJS example by adding 
 
 ### WaveSumJS
 
-Basic example that allows waves of different frequencies to be summed together. 
+Basic example that allows waves of different frequencies to be summed together.
 
 ### WavePhaseJS
 
