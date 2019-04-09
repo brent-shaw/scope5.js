@@ -1,6 +1,6 @@
-[p5js]: https://p5js.org/ (under maintenance)
+[p5js]: https://p5js.org/
 
-scope5.js
+scope5.js (under maintenance)
 =========
 
 Scope5 is plotting library for p5.js. Plots sine waves onto planes to give similar look and feel to oscilloscope.
