@@ -1,4 +1,4 @@
-[p5js]: https://p5js.org/
+[p5js]: https://p5js.org/ (under maintenance)
 
 scope5.js
 =========
